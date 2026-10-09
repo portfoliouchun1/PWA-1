@@ -11,15 +11,15 @@
   "lang": "uz",
   "icons": [
     {
-      "src": "icons/gerb.webp",
+      "src": "icons/logo.png",
       "sizes": "192x192",
-      "type": "image/webp",
+      "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icons/gerb.webp",
+      "src": "icons/logo.png",
       "sizes": "512x512",
-      "type": "image/webp",
+      "type": "image/png",
       "purpose": "any maskable"
     }
   ]
