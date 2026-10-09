@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#4a90d9">
+  <title>Vazifalar Ilovasi</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="app-header">
+    <h1>Vazifalarim</h1>
+    <p class="subtitle">Oddiy CRUD ilova</p>
+  </header>
+
+  <main class="app-main">
+    <!-- Yangi vazifa qo'shish formasi -->
+    <form id="todo-form" class="todo-form">
+      <input 
+        type="text" 
+        id="todo-input" 
+        placeholder="Yangi vazifa yozing..." 
+        autocomplete="off"
+        required
+      >
+      <button type="submit">Qo'shish</button>
+    </form>
+
+    <!-- Statistika -->
+    <div class="stats">
+      <span id="stats-text">Jami: 0 | Bajarilgan: 0</span>
+    </div>
+
+    <!-- Vazifalar ro'yxati -->
+    <ul id="todo-list" class="todo-list"></ul>
+  </main>
+
+  <footer class="app-footer">
+    <p>&copy; 2024 Mening Ilovam</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
